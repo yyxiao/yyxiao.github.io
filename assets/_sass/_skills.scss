@@ -1,0 +1,58 @@
+#skills {
+  height: 100px;
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1.5;
+
+  div {
+    height: 1.5 * 0.9;
+    width: 200px;
+    margin-bottom: 1.5 * 0.42;
+    position: relative;
+    p {
+      font-size: 1.5;
+      line-height: 1.5 * 0.9;
+      height: inherit;
+      display: block;
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+    }
+    p span {
+      display: inline-block;
+      padding: 0 0.4rem;
+    }
+    p span:first-child {
+      background-color: rgba(0, 0, 0, 0.3);
+      color: white;
+    }
+    p span:last-child {
+      float: right;
+      color: #000000;
+    }
+  }
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  display: block;
+  position: relative;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: grey;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+}
+   
+progress[value]::-moz-progress-bar { 
+    background-color: #d7d7d7; 
+} 
+   
+progress[value]::-webkit-progress-value { 
+    background-color: #aadd6a; 
+}
