@@ -1,19 +1,21 @@
+$skill-length:1.5rem;
+
 #skills {
   height: 100px;
   width: 700px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 1.5;
+  padding-bottom: $skill-length;
 
   div {
-    height: 1.5 * 0.9;
+    height: $skill-length * 0.9;
     width: 200px;
-    margin-bottom: 1.5 * 0.42;
+    margin-bottom: $skill-length * 0.42;
     position: relative;
     p {
-      font-size: 1.5;
-      line-height: 1.5 * 0.9;
+      font-size: $skill-length;
+      line-height: $skill-length * 0.9;
       height: inherit;
       display: block;
       position: absolute;
