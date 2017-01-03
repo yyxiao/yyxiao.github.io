@@ -22,6 +22,10 @@ I am a Engineer, living in Shang Hai Now.<a href="https://github.com/yyxiao" tar
 		<progress value="50" max="100"></progress>
 	</div>
 	<div>
+        <p><span>DB</span><span>60%</span></p>
+        <progress value="60" max="100"></progress>
+    </div>
+	<div>
 		<p><span>HTML</span><span>40%</span></p>
 		<progress value="40" max="100"></progress>
 	</div>
