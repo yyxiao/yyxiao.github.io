@@ -51,3 +51,23 @@ public RunningJob submitJob(JobConf job) throws FileNotFoundException, IOExcepti
     }
 }
 ~~~
+
+### 应用
+
+JobClient指的是org.apache.hadoop.mapred.JobClient这个类。里面有不少的方法，我这里列举一些我用到的和一些需要注意的方法。
+
+1、JobClient的实例化。这里有2中方法，一种是new JobClient(new JobConf);另外一种是实例化IP地址和端口。
+
+2、通过JobClient获取Job列表。
+
+JobClient.jobsToComplete()返回没有完成和没有失败的Job。换句话说就是在运行的Job。
+
+JobClient.getAllJobs()返回所有的Job，不管是失败还是成功的。
+
+3、获取JobID
+
+JobID是一个Job的唯一标识，如果要获取指定的JobID，那么需要有根据，例如UserName。我这里是通过User来获取JobID。方法是遍历Job，然后找到名称相匹配的Job，然后取出ID。
+
+4、通过线程阻塞的模式来等待Job执行完成。
+
+JobClient.getJob(JobID).waitForCompletion();
