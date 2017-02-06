@@ -6,7 +6,7 @@ crawlertitle: "About Hadoop"
 summary: "submitJob与runJob"
 date:   2017-01-01 08:10:47
 categories: posts
-tags: ['Hadoop']
+tags: ['大数据','Hadoop']
 author: Xander
 ---
 
