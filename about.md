@@ -2,7 +2,7 @@
 bg: "owl.jpg"
 layout: page
 title: "About"
-crawlertitle: "Why and how this blog was created"
+crawlertitle: "Xander skills info"
 permalink: /about/
 summary: "Xander info"
 active: about
