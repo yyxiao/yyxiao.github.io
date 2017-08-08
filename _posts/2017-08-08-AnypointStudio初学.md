@@ -24,6 +24,7 @@ MuleESB通过Transformer进行数据的格式转换，然后经过InboundRouter�
 后交给Mule的Com-ponent等进行业务逻辑处理。处理后的结果通过OutboundRouter确定传递给哪个接收方，
 然后通过Transformer进行数据格式转换，再通过Transport连接至接收方。
 
+[![2]({{ site.images }}/post/1708/2.png)]({{ site.images }}/post/1708/2.png)
 
 ### 什么是ESB？
 
