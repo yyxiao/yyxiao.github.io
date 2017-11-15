@@ -18,7 +18,7 @@ author: Xander
 
 ###坑点
 
-* [FilterRegistrationBean从springboot的1.3.5到1.4.0的变化] 
+* [FilterRegistrationBean从springboot的1.3.5到1.4.10的变化] 
 
 ```text
 在1.4.0的时候，包名从org.springframework.boot.context.embedded.FilterRegistrationBean变为了
@@ -28,6 +28,14 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean需要注意�
 遇到FilterRegistrationBean找不到的问题，查看资源才发现1.4以后包地址进行了变化。
 ```
 
+1. 搭配完成的eureka，相当于dubbo-admin页面。
+[![1]({{ site.images }}/post/1711/1.png)]({{ site.images }}/post/1711/1.png)
+
+2. 如果服务掉线，eureka会进行警示提醒。
+[![2]({{ site.images }}/post/1711/2.png)]({{ site.images }}/post/1711/2.png)
+
+3. 创建Rest接口时，在Controller类忘记添加注解@RestController
+[![3]({{ site.images }}/post/1711/3.png)]({{ site.images }}/post/1711/3.png)
 
 
 
