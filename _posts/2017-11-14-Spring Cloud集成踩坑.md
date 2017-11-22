@@ -1,7 +1,7 @@
 ---
 bg: "tools.jpg"
 layout: post
-title:  Spring Boot 搭配踩坑
+title:  Spring Cloud 搭配踩坑
 crawlertitle: "Spring"
 summary: "Spring Cloud"
 date: 2017-11-14 10:01:00
