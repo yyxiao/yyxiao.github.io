@@ -29,10 +29,10 @@ http://127.0.0.1:8101/hystrix
 http://localhost:8101/hystrix/monitor?stream=http://localhost:9000/hystrix.stream
 ```
 
-* ：Unable to connect to Command Metric Stream.
+#### Unable to connect to Command Metric Stream.
 
-1. pom.xml需引入以下jar包：
-   
+* pom.xml需引入以下jar包：
+
 方法一：
 ```xml
 <dependency>
@@ -50,6 +50,28 @@ http://localhost:8101/hystrix/monitor?stream=http://localhost:9000/hystrix.strea
 ```
 
 [![1]({{ site.images }}/post/18/01/1.png)]({{ site.images }}/post/18/01/1.png)
+ 
+#### springBoot接入swagger2：
+
+* api列表中没有生成相对应的接口，需查看Swagger2类中
+`apis(RequestHandlerSelectors.basePackage("#####"))`是否配置正确。
+
+```xml
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+</dependency>
+```
+
+
+
+[![2]({{ site.images }}/post/18/01/2.png)]({{ site.images }}/post/18/01/2.png)
+
 
 
 
