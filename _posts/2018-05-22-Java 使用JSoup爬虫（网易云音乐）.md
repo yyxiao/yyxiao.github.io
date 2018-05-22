@@ -32,44 +32,8 @@ Document doc = con.header("Referer", "http://music.163.com/").get();
 ```
 
 * * 上步得到结果doc,选截部分：
-```text
-<div class="n-songtb"> 
-       <div class="u-title u-title-1 f-cb"> 
-        <h3> <span class="f-ff2">歌曲列表</span> </h3> 
-        <span class="sub s-fc3"><span id="playlist-track-count">166</span>首歌</span> 
-        <div class="more s-fc3">
-         播放：
-         <strong id="play-count" class="s-fc6">65</strong>次
-        </div> 
-        <div class="out out-list s-fc3"> 
-         <i class="u-icn u-icn-95 f-fl"></i> 
-         <a data-action="outchain" data-href="/outchain/0/362498513/" class="des s-fc7">生成外链播放器</a> 
-        </div> 
-       </div> 
-       <div id="song-list-pre-cache" data-key="track_playlist-362498513" data-simple="1" data-pvnamed="1"> 
-        <div class="u-load s-fc4">
-         <i class="icn"></i> 加载中...
-        </div> 
-        <ul class="f-hide">
-         <li><a href="/song?id=67572">婚礼的祝福</a></li>
-         <li><a href="/song?id=1380636">Everytime We Touch</a></li>
-         <li><a href="/song?id=36496004">相爱一场 (完整版)</a></li>
-         <li><a href="/song?id=523251118">说散就散</a></li>
-         <li><a href="/song?id=17057974">Everytime We Touch</a></li>
-         <li><a href="/song?id=483671599">追光者</a></li>
-         <li><a href="/song?id=31134194">如果有一天</a></li>
-         <li><a href="/song?id=25645594">와</a></li>
-         <li><a href="/song?id=307737">现在才明白</a></li>
-         <li><a href="/song?id=21038694">Bad Romance</a></li>
-         <li><a href="/song?id=179768">心碎(粤)</a></li>
-         <li><a href="/song?id=28029509">咱们结婚吧</a></li>
-         <li><a href="/song?id=29814898">可惜没如果</a></li>
-         <li><a href="/song?id=25657148">听海</a></li>
-         <li><a href="/song?id=280175">征服</a></li>
-         <li><a href="/song?id=145586">拯救</a></li>
-     </ul>
- </div>
-```
+
+[![4]({{ site.images }}/post/18/01/4.png)]({{ site.images }}/post/18/01/4.png)
 
 * 获取所有符合条件的节点集
 ```java 
