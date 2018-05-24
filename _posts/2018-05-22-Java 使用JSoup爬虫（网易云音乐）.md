@@ -67,6 +67,10 @@ public static void main(String[] args) throws Exception {
     }
 ```
 
+* 使用http url 访问下载相对应mp3
+
+[![5]({{ site.images }}/post/18/01/5.png)]({{ site.images }}/post/18/01/5.png)
+
 
 
 
