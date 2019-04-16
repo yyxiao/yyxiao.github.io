@@ -72,6 +72,8 @@ http://localhost:8101/hystrix/monitor?stream=http://localhost:9000/hystrix.strea
 
 [![2]({{ site.images }}/post/18/01/2.png)]({{ site.images }}/post/18/01/2.png)
 
+[MyBoot传送门](https://github.com/yyxiao/MyBoot)
+
 
 
 
