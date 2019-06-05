@@ -3,7 +3,7 @@ bg: "tools.jpg"
 layout: post
 title:  Spring Boot 搭配踩坑（二）
 crawlertitle: "Spring"
-summary: "Spring Boot"
+summary: "Spring Cloud"
 date: 2018-04-03 10:01:00
 categories: posts
 tags: ['Java']
